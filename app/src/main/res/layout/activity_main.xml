@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="30dp"
+    android:padding="30pt"
     tools:context=".MainActivity">
 
     <TextView
@@ -38,7 +38,7 @@
         android:layout_marginTop="16dp"
         android:hint="Horas trabajadas en el mes"
         android:minHeight="48dp"
-        android:inputType="numberDecimal"
+        android:inputType="number"
         app:layout_constraintTop_toBottomOf="@id/etNombreEmpleado"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -71,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Resultado:"
+        android:text="Resultado aqui:"
         android:textSize="20sp"
         app:layout_constraintTop_toBottomOf="@id/btnCalcularSalario"
         app:layout_constraintStart_toStartOf="parent"
